@@ -15,3 +15,35 @@ body{
     width: 300px;
     margin: 20px 100px;
 }
+.product_title{
+    font-family: cursive;
+    text-align: center;
+}
+.operate{
+    margin: 30px 100px;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    margin: 15px;
+}
+.icon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.btn{
+    margin-left: 43%;
+    height: 60px;
+    width: 80px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: skyblue;
+    color: white;
+    border-radius: 10px;
+}
+.btn:hover{
+    box-shadow: 0px 0px 3px 3px skyblue;
+    transform: scale(1.1);
+}
