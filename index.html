@@ -12,17 +12,22 @@
         <h2 class="product_title">Girl's College Bag</h2>
         <div class="operate">
             <img src="minus.png" class="icon" onclick="decrese()"/>
-            <span>1</span>
+            <span id="quantity">1</span>
             <img src="add.png" class="icon" onclick="increase()"/>
         </div>
         <button class="btn">Buy Now</button>
     </div>
     <script>
+        const quant = document.getElementById('quantity')
          function increase(){
-
+             let no_quantity = parseInt(quant.innerText)
+             quant.innerText = ++no_quantity
          }
          function decrese(){
-            
+            let no_quantity = parseInt(quant.innerText)
+            if(no_quantity > 1){
+            quant.innerText = --no_quantity
+            }
          }
     </script>
 </body>
