@@ -2,14 +2,20 @@ body{
     margin: 0;
     padding: 0;
 }
+.header{
+   text-align: center;
+   font-family: cursive;
+   font-size: 13px;
+}
 .container{
-    height: 650px;
+    height: 750px;
     width: 30%;
     border: 5px solid #ff3374;
     margin: 30px auto;
     border-radius: 10px;
     box-shadow: 0px 0px 3px 3px #ff3374;
     background-color: #ffe6ee;
+    padding-top: 0;
 }
 .product_img{
     height: 300px;
