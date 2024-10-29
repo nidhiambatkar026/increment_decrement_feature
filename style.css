@@ -5,10 +5,11 @@ body{
 .container{
     height: 600px;
     width: 30%;
-    border: 5px solid grey;
+    border: 5px solid #ff3374;
     margin: 30px auto;
     border-radius: 10px;
-    box-shadow: 0px 0px 3px 3px grey;
+    box-shadow: 0px 0px 3px 3px #ff3374;
+    background-color: #ffe6ee;
 }
 .product_img{
     height: 300px;
@@ -18,6 +19,7 @@ body{
 .product_title{
     font-family: cursive;
     text-align: center;
+    color: #ff3374;
 }
 .operate{
     margin: 30px 100px;
@@ -39,11 +41,11 @@ body{
     width: 80px;
     font-size: 15px;
     margin-bottom: 10px;
-    background-color: skyblue;
+    background-color: #33adff;
     color: white;
     border-radius: 10px;
 }
 .btn:hover{
-    box-shadow: 0px 0px 3px 3px skyblue;
+    box-shadow: 0px 0px 3px 3px #33adff;
     transform: scale(1.1);
 }
